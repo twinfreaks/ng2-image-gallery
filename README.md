@@ -1,11 +1,14 @@
-[![Join the chat at https://gitter.im/bergben/bergben](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/bergben/bergben?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-
-# ng2-image-gallery
+# ng2-image-gallery-fixed
 Basic Angular 2 image gallery, fixed.
+Based on ng2-image-gallery by Benedikt Berger with next photo change fix.
+
+Links to original project:
+https://www.npmjs.com/package/ng2-image-gallery
+https://github.com/bergben/ng2-image-gallery
 
 ## Install
 ```bash
-$ npm install ng2-image-gallery --save
+$ npm install ng2-image-gallery-fixed --save
 ```
 
 ### Import the module
