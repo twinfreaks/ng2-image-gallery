@@ -36,7 +36,7 @@ export interface ImageInterface {
                 <div class="ng2-igl-thumbnails">
                     <a class="ng2-igl-nav-left thumbnails" [ngClass]="{'non-visible': curThumbnailIndex < 4 }" (click)="thumbnailsPrevious()"><i class="fa fa-angle-left"></i></a>
                     <template ngFor let-image [ngForOf]="images" let-index="index">
-                        <img [src]="image[asThumbnail]" (click)="toImage(index)"
+                        <img [src]="image[asThumbnail]" (click)="toImage(index)" 
                             *ngIf="(curThumbnailIndex>images.length-4 && index > images.length-8)||(curThumbnailIndex<4 && index < 7)||(index >= curThumbnailIndex -3) && (index <= curThumbnailIndex+3)"
                             [ngClass]="{'active':curImageIndex===index}"
                             class="ng2-igl-thumbnail rounded-circle">
